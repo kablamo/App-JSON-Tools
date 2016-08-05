@@ -1,4 +1,4 @@
-package App::JSON::Path;
+package App::JSON::Tools;
 use 5.008001;
 use strict;
 use warnings;
@@ -14,15 +14,15 @@ __END__
 
 =head1 NAME
 
-App::JSON::Path - It's new $module
+App::JSON::Tools - command line json tools
 
 =head1 SYNOPSIS
 
-    use App::JSON::Path;
+    json-path -h
+    json-pointer -h
 
 =head1 DESCRIPTION
 
-App::JSON::Path is ...
 
 =head1 LICENSE
 
