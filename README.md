@@ -1,14 +1,13 @@
 # NAME
 
-App::JSON::Path - It's new $module
+App::JSON::Tools - command line json tools
 
 # SYNOPSIS
 
-    use App::JSON::Path;
+    json-path -h
+    json-pointer -h
 
 # DESCRIPTION
-
-App::JSON::Path is ...
 
 # LICENSE
 

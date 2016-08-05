@@ -1,10 +1,10 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "command line json tools",
    "author" : [
       "Eric Johnson <eric.git@iijo.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.2.0, CPAN::Meta::Converter version 2.142060",
+   "generated_by" : "Minilla/v2.2.0, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "App-JSON-Path",
+   "name" : "App-JSON-Tools",
    "no_index" : {
       "directory" : [
          "t",
@@ -42,6 +42,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Getopt::Long" : "0",
+            "JSON::MaybeXS" : "0",
+            "JSON::Path" : "0",
+            "JSON::Pointer" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,6 +56,18 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kablamo/App-JSON-Tools/issues"
+      },
+      "homepage" : "https://github.com/kablamo/App-JSON-Tools",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kablamo/App-JSON-Tools.git",
+         "web" : "https://github.com/kablamo/App-JSON-Tools"
+      }
+   },
    "version" : "0.01",
-   "x_authority" : "cpan:KABLAMO"
+   "x_authority" : "cpan:KABLAMO",
+   "x_serialization_backend" : "JSON::PP version 2.27203"
 }
