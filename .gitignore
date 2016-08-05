@@ -28,3 +28,8 @@ cover_db/
 MYMETA.*
 
 /App-JSON-Path-*
+
+cpanfile.snapshot
+
+t/foo
+t/foo.json
